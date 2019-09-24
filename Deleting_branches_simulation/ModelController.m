@@ -46,9 +46,10 @@
     DataViewController *dataViewController = [storyboard instantiateViewControllerWithIdentifier:@"DataViewController"];
     dataViewController.dataObject = self.pageData[index];
     NSLog(@"Hello World");
-    NSLog(@"Master Commit Test Merged and split again");
-    NSLog(@"some more branching");
-    NSLog(@"some more branching");
+    NSLog(@"Master Commit Test");
+    NSLog(@"another line");
+    NSLog(@"another line");
+    NSLog(@"another line");
 
     return dataViewController;
 }
