@@ -49,6 +49,7 @@
     NSLog(@"Master Commit Test");
     NSLog(@"another line");
     NSLog(@"another line");
+    NSLog(@"another line");
 
     return dataViewController;
 }
