@@ -48,6 +48,8 @@
     NSLog(@"Hello World");
     NSLog(@"Master Commit Test Merged and split again");
     NSLog(@"some more branching");
+    NSLog(@"some more branching");
+
     return dataViewController;
 }
 
