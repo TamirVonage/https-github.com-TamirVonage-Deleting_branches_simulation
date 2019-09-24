@@ -45,6 +45,7 @@
     // Create a new view controller and pass suitable data.
     DataViewController *dataViewController = [storyboard instantiateViewControllerWithIdentifier:@"DataViewController"];
     dataViewController.dataObject = self.pageData[index];
+    NSLog(@"Hello World");
     return dataViewController;
 }
 
