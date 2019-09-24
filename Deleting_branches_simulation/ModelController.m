@@ -46,6 +46,7 @@
     DataViewController *dataViewController = [storyboard instantiateViewControllerWithIdentifier:@"DataViewController"];
     dataViewController.dataObject = self.pageData[index];
     NSLog(@"Hello World");
+    NSLog(@"Master Commit Test");
     return dataViewController;
 }
 
